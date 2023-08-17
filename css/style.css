@@ -520,3 +520,76 @@ p {
   background: linear-gradient(rgba(14, 162, 189, 0.9), rgba(14, 162, 189, 0.9)),
     url(../assets/img/pricing-bg.jpg);
 }
+
+/* Start Portfolio */
+.portfolio .nav-tabs .nav-link{
+  color: #1a1f24;
+  font-size: 18px;
+  font-weight: 300;
+}
+.portfolio .nav-tabs .nav-link.active{
+  color: var(--primary-color);
+}
+
+.portfolio .tab-content .overlay{
+  background-color: #485664ac;
+  scale: 1;
+  padding: 4rem !important;
+  transition: 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  cursor: pointer;
+}
+.portfolio .tab-content .item img{
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  cursor: pointer;
+}
+.portfolio .tab-content .item:hover img{
+  scale: 1.2;
+}
+.portfolio .tab-content .item:hover .overlay{
+  scale: 1.2;
+  opacity: 1;
+  visibility: visible;
+}
+
+.member-card .info-card{
+  position: absolute;
+  width: 90%;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.blogs .blog{
+  cursor: pointer;
+}
+.blogs .blog img ,.blogs .blog h3{
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.blogs .blog:hover img{
+  scale: 1.25;
+}
+
+.blogs .blog:hover h3{
+  color: var(--primary-color);
+}
+
+.contact-info i{
+  font-size: 24px;
+}
