@@ -2,6 +2,19 @@
     .member-card{
         margin-bottom: 7rem !important;
     }
+    .blog{
+        margin-bottom: 2rem;
+    }
+    form{
+        margin-top: 2rem;
+    }
+    footer .container{
+        text-align: center;
+    }
+    footer .socials{
+        margin-top: 1rem;
+        justify-content: center !important;
+    }
 }
 @media (min-width: 576px){
     .cta{
